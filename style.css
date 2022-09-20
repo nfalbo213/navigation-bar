@@ -1,0 +1,148 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* Allow nav to scroll through page */
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    height: 500px;
+}
+
+    /* Navbar */
+    .navbar {
+        margin-top: -25px;
+        display: block;
+        position: fixed;
+        height: 10%;
+        z-index: 99;
+        background-color: rgb(130, 130, 130);
+        opacity: .95;
+        width: 100%;
+    }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+            height: 50px;
+            width: 50px;
+            cursor: pointer;
+            /* position fixed allows for options to cascade from top of screen */
+            /*position: fixed;*/
+            margin-left: 85%;
+            margin-top: 2%;
+        }
+        .x-span, .middle-span {
+            margin-right: 4px;
+            width: 40px;
+            height: 5px;
+            border-radius: 4px;
+            display: block;
+            background-color: white;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+        nav li {
+            display: inline-block;
+        }
+        .border-li {
+            border-right: 1px solid black;
+            padding-right: 3px;
+        }
+        nav a {
+            color: white;
+            cursor: pointer;
+            transition: .15s;
+            font-weight: bolder;
+        }
+        nav a:hover {
+            color: black;
+        }
+
+        /* Make hamburger visible in mobile */
+        @media screen and (max-width: 650px) {
+            .navbar {
+                /* Block Display */
+                display: block;
+
+                /* Flex Display */
+                /*display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                */
+
+                z-index: 99;
+            }
+            .hamburger {
+                display: flex;
+                margin-right: 5%;
+                /* Keeps hamburger aligned in top right of drop box */
+                align-self: flex-end;
+            }
+            .nav-list {
+                display: none;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                height: 70%;
+            }
+            .border-li {
+                border-right: none;
+                padding-right: 0;
+            }
+        }
+    /* ^^ End of Navbar section ^^*/
+
+h1 {
+   /* Padding top matches height of navbar */
+   padding-top: 10%; 
+}
+section {
+    /* Padding top matches height of navbar */
+    padding-top: 10%;
+    height: 1000px;
+}
+@media screen and (max-width: 650px) {
+    h1 {
+        /* Padding top adjusted for mobile */
+        padding-top: 15%; 
+     }
+     section {
+         /* Padding top adjusted for mobile */
+         padding-top: 12%;
+     }
+}
+
+footer {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    font-size: initial;
+}
+
+
+
+/* jQuerry div styling */
+.jQuery-div {
+    background-color: #bca;
+    width: 100px;
+    border: 1px solid green;
+    margin-bottom: 10%;
+  }
