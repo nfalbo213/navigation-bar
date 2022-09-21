@@ -58,9 +58,15 @@ header {
         nav li {
             display: inline-block;
         }
+        .mobile-nav-list {
+            display: none;
+        }
         .border-li {
             border-right: 1px solid black;
             padding-right: 3px;
+        }
+        .nav-link {
+            text-decoration: none;
         }
         nav a {
             color: white;
@@ -94,6 +100,9 @@ header {
                 align-self: flex-end;
             }
             .nav-list {
+                display: none;
+            }
+            .mobile-nav-list {
                 display: none;
                 flex-direction: column;
                 justify-content: space-around;
