@@ -7,7 +7,7 @@ const hamburger = document.getElementById('hamburger');
 const topSpan = document.getElementById('top-span');
 const middleSpan = document.getElementById('middle-span');
 const bottomSpan = document.getElementById('bottom-span');
-const navList = document.getElementById('nav-list');
+const mobileNavList = document.getElementById('mobile-nav-list');
 const navZero = document.getElementById('nav0');
 const navOne = document.getElementById('nav1');
 const navTwo = document.getElementById('nav2');
@@ -30,7 +30,7 @@ hamburger.onpointerup = (event) => {
         bottomSpan.style.transform = 'rotate(315deg)';
         bottomSpan.style.position = 'absolute';
         //hamburger.style.justifyContent = 'center';
-        navList.style.display = 'flex';
+        mobileNavList.style.display = 'flex';
 
     // CHANGE BACK BELOW CODE IF REMOVE JQUERY
         //navBar.style.height = '50%';
@@ -51,7 +51,7 @@ hamburger.onpointerup = (event) => {
         bottomSpan.style.transform = 'rotate(-360deg)';
         bottomSpan.style.position = '';
         //hamburger.style.justifyContent = '';
-        navList.style.display = '';
+        mobileNavList.style.display = '';
         
         // CHANGE BACK BELOW CODE IF REMOVE JQUERY
         //navBar.style.opacity = '';
@@ -82,7 +82,7 @@ navZero.onpointerup = (event) => {
     bottomSpan.style.transform = 'rotate(-360deg)';
     bottomSpan.style.position = '';
     //hamburger.style.justifyContent = '';
-    navList.style.display = '';
+    mobileNavList.style.display = '';
 
     // CHANGE BACK BELOW CODE IF REMOVE JQUERY
     //navBar.style.opacity = '';
@@ -110,7 +110,7 @@ navOne.onpointerup = (event) => {
     bottomSpan.style.transform = 'rotate(-360deg)';
     bottomSpan.style.position = '';
     //hamburger.style.justifyContent = '';
-    navList.style.display = '';
+    mobileNavList.style.display = '';
 
 // CHANGE BACK BELOW CODE IF REMOVE JQUERY
     //navBar.style.opacity = '';
@@ -138,7 +138,7 @@ navTwo.onpointerup = (event) => {
     bottomSpan.style.transform = 'rotate(-360deg)';
     bottomSpan.style.position = '';
     //hamburger.style.justifyContent = '';
-    navList.style.display = '';
+    mobileNavList.style.display = '';
 
     // CHANGE BACK BELOW CODE IF REMOVE JQUERY
     //navBar.style.opacity = '';
@@ -166,7 +166,7 @@ navThree.onpointerup = (event) => {
     bottomSpan.style.transform = 'rotate(-360deg)';
     bottomSpan.style.position = '';
     //hamburger.style.justifyContent = '';
-    navList.style.display = '';
+    mobileNavList.style.display = '';
 
 // CHANGE BACK BELOW CODE IF REMOVE JQUERY
     //navBar.style.opacity = '';
@@ -194,7 +194,7 @@ navFour.onpointerup = (event) => {
     bottomSpan.style.transform = 'rotate(-360deg)';
     bottomSpan.style.position = '';
     //hamburger.style.justifyContent = '';
-    navList.style.display = '';
+    mobileNavList.style.display = '';
 
 // CHANGE BACK BELOW CODE IF REMOVE JQUERY
     //navBar.style.opacity = '';
