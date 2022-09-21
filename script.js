@@ -20,7 +20,7 @@ let hamburgerClicked = false;
 /////////////
 // Functions
 
-hamburger.onpointerup = (event) => {
+hamburger.onpointerdown = (event) => {
 
     if (!hamburgerClicked) {
         topSpan.style.transform = 'rotate(405deg)';
