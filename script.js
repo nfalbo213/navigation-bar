@@ -73,7 +73,7 @@ hamburger.onpointerup = (event) => {
 
 }
 
-navZero.onpointerup = (event) => {
+navZero.onpointerdown = (event) => {
 
     topSpan.style.transform = 'rotate(-360deg)';
     topSpan.style.position = '';
@@ -185,7 +185,7 @@ navThree.onpointerup = (event) => {
 
 }
 
-navFour.onpointerup = (event) => {
+navFour.onpointerdown = (event) => {
 
     topSpan.style.transform = 'rotate(-360deg)';
     topSpan.style.position = '';
