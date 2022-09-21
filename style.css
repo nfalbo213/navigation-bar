@@ -49,6 +49,13 @@ header {
             display: block;
             background-color: white;
             /*-webkit-transition: 0.5s;*/
+            -webkit-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -webkit-transition-property: all;
+            -webkit-transition-duration: 0.5s;
+            -webkit-transition-timing-function: ease;
+            -webkit-transition-delay: 0s;
+            
             transition: 0.5s;
             transition-property: all;
             transition-duration: 0.5s;
