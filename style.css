@@ -26,6 +26,10 @@ body {
     margin: 0 auto;
 }
 
+p {
+   color: black;
+}
+
 header {
     display: block;
     height: 500px;
