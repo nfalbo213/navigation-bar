@@ -89,8 +89,8 @@ const burgerSpin = () => {
     
 }
 
-
-hamburger.onpointerup = (event) => {
+// onmousedown seems to work better than onpointerup for resizign response issue in mobile browsers
+hamburger.onmousedown = (event) => {
     
     event.preventDefault();
     burgerSpin();
