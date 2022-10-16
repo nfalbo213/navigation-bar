@@ -32,7 +32,7 @@ p {
 
 header {
     display: block;
-    height: 500px;
+    height: 300px;
 }
 
     /* Navbar */
@@ -58,7 +58,7 @@ header {
             cursor: pointer;
             /* position fixed allows for options to cascade from top of screen */
             /*position: fixed;*/
-            margin-left: 85%;
+            margin-left: 80%;
             margin-top: 2%;
         }
         .x-span, .middle-span {
