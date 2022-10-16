@@ -40,7 +40,7 @@ header {
         margin-top: -25px;
         display: block;
         position: fixed;
-        height: 10%;
+        height: 80px;
         z-index: 99;
         background-color: rgb(130, 130, 130);
         opacity: .95;
@@ -73,7 +73,7 @@ header {
             -webkit-transition-duration: 0.5s;
             -webkit-transition-timing-function: ease;
             -webkit-transition-delay: 0s;
-            
+
             transition: 0.5s;
             transition-property: all;
             transition-duration: 0.5s;
@@ -149,7 +149,7 @@ header {
 
 h1 {
    /* Padding top matches height of navbar */
-   padding-top: 10%; 
+   padding-top: 10%;
 }
 section {
     /* Padding top matches height of navbar */
@@ -159,7 +159,7 @@ section {
 @media screen and (max-width: 650px) {
     h1 {
         /* Padding top adjusted for mobile */
-        padding-top: 15%; 
+        padding-top: 15%;
      }
      section {
          /* Padding top adjusted for mobile */

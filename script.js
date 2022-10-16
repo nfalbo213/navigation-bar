@@ -60,7 +60,7 @@ const burgerSpin = () => {
         // CHANGE BACK BELOW CODE IF REMOVE JQUERY
         //navBar.style.height = '50%';
         //navBar.style.opacity = '.98';
-        
+
     } else {
 
         // Animate top of burger
@@ -75,7 +75,7 @@ const burgerSpin = () => {
         // Close navbar extension
         mobileNavList.style.display = '';
         $( "#navbar" ).animate({
-            height: "10%",
+            height: "80px",
             opacity: ".95"
           }, 200 );
         // Set burger as 'not-clicked'
@@ -86,12 +86,12 @@ const burgerSpin = () => {
         //navBar.style.height = '';
 
     }
-    
+
 }
 
 // onmousedown seems to work better than onpointerup for resizign response issue in mobile browsers
 hamburger.onmousedown = (event) => {
-    
+
     event.preventDefault();
     burgerSpin();
 
@@ -147,7 +147,7 @@ navFour.onpointerup = (event) => {
 const jButton = document.getElementById('go');
 
 jButton.onpointerup = (event) => {
-    
+
     event.preventDefault();
 
     console.log('1');
